@@ -9,7 +9,7 @@ function App() {
       <div className="header">
         <img src={Image} alt="" />
 
-        <div>
+        <div className="info">
           <h1 className="text-2xl font-medium">Acorda Devinho</h1>
           <p className="text-lg font-light opacity-67">Banda Rocketseat</p>
         </div>
@@ -30,7 +30,9 @@ function App() {
           </button>
         </div>
 
-        
+        <div className="progressBar">
+          <TrackPlayer />
+        </div>
       </div>
     </div>
   );

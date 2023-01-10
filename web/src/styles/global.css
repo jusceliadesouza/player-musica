@@ -14,47 +14,33 @@ body {
     @apply flex items-center justify-center;
   }
 
+  .col {
+    @apply flex flex-col;
+  }
+
   .container {
-    @apply w-[22.375rem] h-[12.5rem] bg-primary mx-auto rounded-lg;
+    @apply w-[22.375rem] bg-primary mx-auto rounded-lg col gap-7 p-7;
   }
 
   .header {
-    @apply p-7 flex items-center gap-7;
-  }
-
-  .player .icons {
-    @apply center gap-14;
-  }
-
-  .sr-only {
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
+    @apply flex items-center gap-7;
   }
 }
 
 @media (min-width: 640px) {
+  
 }
 
 @media (min-width: 1024px) {
   .container {
-    @apply w-72 h-[32rem];
+    @apply w-64;
   }
+
   .header {
-    @apply flex flex-col;
+    @apply col;
   }
 
   .header img {
     @apply w-48;
   }
-
-  .player {
-    @apply flex flex-col gap-7;
-  }
-
 }

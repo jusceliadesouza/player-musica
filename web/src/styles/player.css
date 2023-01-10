@@ -1,0 +1,38 @@
+.player {
+  @apply flex flex-col gap-7;
+}
+
+.player .icons {
+  @apply flex items-center justify-around;
+}
+
+.player .progressBar {
+  @apply hidden;
+}
+
+@media (min-width: 640px) {
+  .player .progressBar {
+    @apply block;
+  }
+
+  .duration {
+    @apply flex justify-between font-light opacity-67;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header img {
+    @apply mx-auto
+  }
+  .header .info {
+    @apply flex flex-col items-start;
+  }
+
+  .player {
+    @apply flex flex-col gap-7;
+  }
+
+  .player .progressBar {
+    @apply block;
+  }
+}

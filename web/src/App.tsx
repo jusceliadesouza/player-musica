@@ -1,6 +1,7 @@
 import IonIcon from "@reacticons/ionicons";
 import Image from "./assets/background.svg";
-import { TrackPlayer } from "./component/TrackPlayer";
+
+import { TrackPlayer } from "./components/TrackPlayer";
 
 function App() {
   return (
@@ -16,14 +17,20 @@ function App() {
 
       <div className="player">
         <div className="icons">
-          <IonIcon name="play-back" size="large"></IonIcon>
-          <IonIcon name="play" size="large"></IonIcon>
-          <IonIcon name="play-forward" size="large"></IonIcon>
+          <button>
+            <IonIcon name="play-back" size="large"></IonIcon>
+          </button>
+
+          <button>
+            <IonIcon name="play" size="large"></IonIcon>
+          </button>
+
+          <button>
+            <IonIcon name="play-forward" size="large"></IonIcon>
+          </button>
         </div>
 
-        <div>
-          <TrackPlayer />
-        </div>
+        
       </div>
     </div>
   );

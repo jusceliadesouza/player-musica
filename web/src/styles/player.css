@@ -15,24 +15,38 @@
     @apply block;
   }
 
-  .duration {
+  .timeline {
+    @apply w-full h-[0.375rem] bg-white/30 rounded-lg bg-no-repeat;
+
+    -webkit-appearance: none;
+    background-size: 80% 100%;
+    background-image: linear-gradient(#D9D9D9, #D9D9D9);
+  }
+
+  .timeline::-webkit-slider-thumb {
+    @apply bg-[#D9D9D9] rounded-full w-[0.375rem] h-[0.375rem];
+
+    -webkit-appearance: none;
+  }
+
+  .timeline::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+
+  .time {
     @apply flex justify-between font-light opacity-67;
   }
 }
 
 @media (min-width: 1024px) {
   .header img {
-    @apply mx-auto
-  }
-  .header .info {
-    @apply flex flex-col items-start;
+    @apply mx-auto;
   }
 
   .player {
     @apply flex flex-col gap-7;
-  }
-
-  .player .progressBar {
-    @apply block;
   }
 }

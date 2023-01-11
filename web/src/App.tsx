@@ -1,7 +1,8 @@
 import IonIcon from "@reacticons/ionicons";
-import Image from "./assets/background.svg";
 
-import { TrackPlayer } from "./components/TrackPlayer";
+import { Player } from "./components/Player";
+
+import Image from "./assets/background.svg";
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
         </div>
 
         <div className="progressBar">
-          <TrackPlayer />
+          <Player />
         </div>
       </div>
     </div>

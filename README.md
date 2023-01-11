@@ -4,6 +4,8 @@
 
 Player de música responsivo
 
+[![Acorda Devinho](web/public/player.jpg)](web/public/player.mp4 "Layout responsivo")
+
 ## Layout
 
 O [layout](https://www.figma.com/file/lHOrVOvkZAkIB9iQzLXrTJ/%23boraCodar---Desafio-1?node-id=1%3A61&t=KoYnHIzYMoVgkZl5-1) desse projeto está hospedado no [Figma](htttps://figma.com). Para acessá-lo, você precisa de uma conta!
@@ -24,8 +26,8 @@ O [layout](https://www.figma.com/file/lHOrVOvkZAkIB9iQzLXrTJ/%23boraCodar---Desa
 ## Features
 
 - [ ] Reprodução de faixas
-- [ ] Timer da reprodução
-- [x] Layout responsivo
+- [ ] Timer de reprodução
+- [x] Layout Web responsivo
 
 ## Licença
 
